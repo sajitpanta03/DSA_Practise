@@ -9,7 +9,7 @@ public class StringRepeat {
     }
 
     private static int countUniqueAlphabets(String input) {
-        input = input.toLowerCase(); // Convert to lowercase to make it case-insensitive
+        input = input.toLowerCase();
         Set<Character> uniqueChars = new HashSet<>();
         for (char c : input.toCharArray()) {
             if (Character.isLetter(c)) {
